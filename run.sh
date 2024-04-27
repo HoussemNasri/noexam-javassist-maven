@@ -1,0 +1,2 @@
+mvn install
+java -Xbootclasspath/a:./agent/target/agent-1.0-SNAPSHOT-jar-with-dependencies.jar -javaagent:./agent/target/agent-1.0-SNAPSHOT-jar-with-dependencies.jar -jar ./application/target/application-1.0-SNAPSHOT-jar-with-dependencies.jar
